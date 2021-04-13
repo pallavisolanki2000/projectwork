@@ -122,3 +122,124 @@ header.sticky .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navb
     margin-right: 3px;
     margin-left: 3px;
 }
+
+/*========Historical section=====*/
+.historical-places{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background: #f7fafd;
+}
+.historical-places h3{
+  text-align: center;
+  justify-content: center;
+}
+
+.historical-places .single-dest{
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+.historical-places .single-dest .thumb{
+  position:relative;
+  overflow: hidden;
+
+}
+.historical-places .single-dest .thumb img{
+  width: 100%;
+}
+.historical-places .single-dest .thumb .price{
+  position: absolute;
+  background: #02acf0;
+  padding: 7px 18px 4px 18px;
+  display: inline-block;
+  top: 10px;
+  left: 15px;
+  border-radius: 18px;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.historical-places .single-dest .dest-info{
+  padding: 27px 20px 25px 20px;
+}
+.historical-places .single-dest .dest-info h3{
+  font-size: 22px;
+  font-weight: bold;
+  color: #040e27;
+  margin-bottom: 0;
+  transition: 0.3s;
+}
+.historical-places .single-dest .dest-info p{
+  font-size: 14px;
+  font-weight: lighter;
+  color: #000;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+.historical-places .single-dest .dest-info .rating span i{
+  font-size: 15px;
+  color:#040e27;
+}
+.historical-places .single-dest .dest-info .rating span a{
+  font-size: 14px;
+  color: #000;
+  margin-left: 5px;
+}
+.historical-places .single-dest .dest-info .rating .days{
+  font-size: 14px;
+  font-weight: light;
+  color: #000;
+}
+.historical-places .single-dest .dest-info  .rating .days i{
+  margin-right: 8px;
+}
+.historical-places .single-dest .dest-info  .rating .days a{
+  font-size: 14px;
+  color: #000;
+}
+
+.historical-places .single-dest:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.historical-places .single-dest:hover .dest-info h3{
+  color: #030942;
+}
+.historical-places .single-dest:hover .dest-info price{
+  background: #0292f1;
+}
+
+/*======== end of Historical section=====*/
+
+
+/*========footer=====*/
+.footer{
+  padding: 100px 20px;
+  background-image:linear-gradient(#2d557d,#9610fb) ;
+  color: #fff;
+}
+.footer-logo{
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer h4{
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.footer p{
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 35px;
+}
+.footer .row .fa{
+  padding-right: 20px;
+  font-size:15px;
+}
+.footer hr{
+  margin-top:10px;
+  background:#efefef;
+}
