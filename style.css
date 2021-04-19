@@ -1,7 +1,9 @@
 *{
   scroll-behavior: smooth;
 }
-
+header .navbar{
+  background-color: rgb(117,210,223);
+}
 .nav-item{
      margin-right: 10px;
      letter-spacing: 2px;
